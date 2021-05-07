@@ -7,6 +7,7 @@
   text-align: center;
   font-size:23px;
   font-family:verdana;
+  -webkit-text-stroke: 2px black;
 }
 .vanilie {
   background-color: rgb(214,197,175, 0.877);
@@ -17,6 +18,7 @@
   text-align: center;
   font-size:23px;
   font-family:verdana;
+    -webkit-text-stroke: 2px black;
 }
 .lamaie {
   background-color: rgb(222, 238, 79, 0.877);
@@ -27,6 +29,7 @@
   text-align: center;
   font-size:23px;
   font-family:verdana;
+    -webkit-text-stroke: 2px black;
 }
 .menta {
   background-color: rgba(119, 226, 155, 0.877);
@@ -37,6 +40,7 @@
   text-align: center;
   font-size:23px;
   font-family:verdana;
+    -webkit-text-stroke: 2px black;
 }
 .caramel {
   background-color: rgb(197,115,61, 0.877);
@@ -46,7 +50,9 @@
   margin: 20px;
   text-align: center;
   font-size:23px;
-  font-family:verdana;}
+  font-family:verdana;
+    -webkit-text-stroke: 2px black;
+}
 .capsune {
   background-color:rgb(252,179,172, 0.877);
   color: whitesmoke;
@@ -55,7 +61,8 @@
   margin: 20px;
   text-align: center;
   font-size:23px;
-  font-family:verdana;}
+  font-family:verdana;
+  -webkit-text-stroke: 2px black;}
 .fistic {
   background-color: rgb(147,207,127, 0.877);
   color: whitesmoke;
@@ -64,7 +71,8 @@
   margin: 20px;
   text-align: center;
   font-size:23px;
-  font-family:verdana;}
+  font-family:verdana;
+  -webkit-text-stroke: 2px black;}
 .fructepadure {
   background-color: rgb(169,166,216, 0.877);
   color: whitesmoke;
@@ -73,7 +81,8 @@
   margin: 20px;
   text-align: center;
   font-size:23px;
-  font-family:verdana;}
+  font-family:verdana;
+  -webkit-text-stroke: 2px black;}
 .tiramisu {
   background-color: rgb(212,190,167, 0.877);
   color: whitesmoke;
@@ -82,7 +91,8 @@
   margin: 5px;
   text-align: center;
   font-size:23px;
-  font-family:verdana;}
+  font-family:verdana;
+  -webkit-text-stroke: 2px black;}
 
 
 
@@ -93,6 +103,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+    -webkit-text-stroke: 2px black;
   }
   .Cappuccino{
   background-color: rgb(163,115,51, 0.877);
@@ -100,6 +111,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .Espresso{
   background-color:rgb(78,42,42, 0.877);
@@ -107,6 +119,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .Macchiato{
   background-color:rgb(79,71,68, 0.877);
@@ -114,6 +127,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .Limonadă{
   background-color:rgb(212,205,1, 0.877);
@@ -121,6 +135,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .Apa{
   background-color: rgb(38,102,145, 0.877);
@@ -128,6 +143,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .Ristretto{
   background-color: rgb(67,19,7, 0.877);
@@ -135,6 +151,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .CeaiVerde{
   background-color:rgb(131,170,107, 0.877);
@@ -142,6 +159,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
   .CeaiNegru{
   background-color:rgb(46,17,10, 0.877);
@@ -149,6 +167,7 @@
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
+      -webkit-text-stroke: 2px black;
   }
 
 
@@ -161,6 +180,7 @@
     text-align: center;
     font-size:23px;
     font-family:verdana;
+      -webkit-text-stroke: 2px black;
   }
   .Golf {
     background-color: rgba(141, 141, 0, 0.45);
@@ -171,6 +191,7 @@
     text-align: center;
     font-size:23px;
     font-family:verdana;
+      -webkit-text-stroke: 2px black;
   }
   .Hockey {
     background-color: rgba(199, 41, 41, 0.45);
@@ -181,6 +202,7 @@
     text-align: center;
     font-size:23px;
     font-family:verdana;
+      -webkit-text-stroke: 2px black;
   }
   
   
