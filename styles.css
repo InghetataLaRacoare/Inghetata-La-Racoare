@@ -18,7 +18,7 @@
   text-align: center;
   font-size:23px;
   font-family:verdana;
-    -webkit-text-stroke: 2px black;
+   
 }
 .lamaie {
   background-color: rgb(222, 238, 79, 0.877);
@@ -215,4 +215,5 @@
   font-size: 22px;
 }
 p { text-align: left ;}
+p4{  -webkit-text-stroke: 2px black;}
 
