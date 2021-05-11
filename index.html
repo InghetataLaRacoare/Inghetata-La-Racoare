@@ -3,17 +3,19 @@
 <title>Înghetața „La Răcoare”</title>
 <link rel="stylesheet" href="styles.css">
 <style>
-	p {
-  text-indent: 15px;
+body {
+  overflow: hidden; /* Hide scrollbars */
 }
-	</style>
+</style>
+
 </head>
+
 <body style="background-color: lightgoldenrodyellow;">
 
 
 
 	<ul >
-    <li style="font-size :40px;"><a class="active"  href="index.html">Home</a></li>
+    <li style="font-size :40px;"><a class="active"href="index.html">Home</a></li>
     <li style="font-size :40px;"><a href="Inghetata.html">Inghetata</a></li>
     <li style="font-size :40px;"><a href="Jocuri.html">Jocuri</a></li>
     <li style="font-size :40px;"><a href="Bauturi.html">Bauturi</a></li>
@@ -23,11 +25,41 @@
 
   <div style="margin-left:20%;height:1000px;padding: 6px;">
     <h1 style="font-family:verdana">Înghețata „La Răcoare”</h1>
-<h3 style="font-family:verdana">„Atât de bună încât ar trebui să fie ilegală”</h3>
-
-    <p1 style="font-family:verdana">Să recunoaștem, am uitat ce importante sunt momentele cu cei dragi. Misiunea noastră 
+    <h3 style="font-family:verdana">Atât de bună încât ar trebui să fie ilegală</h3>
+    <h3 style="font-family:verdana;text-indent: 0px;">Misiunea noastră:</h3>
+    <p style="font-family:verdana">Să recunoaștem, am uitat ce importante sunt momentele cu cei dragi. Misiunea noastră 
       este simplă, să ajutăm tinerii să redescopere ce este cu adevărat important pentru ei, viața.
-      Inovație în 2020, standard în 1970.<p1>
+      Inovație în 2020, standard în 1970.</p>
+      <h3 style="font-family:verdana;text-indent: 0px;">Despre noi:</h3>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Suntem un grup de 4 tineri care doresc să inoveze pe cât piața alimentară
+    ,cât și pe cea de divertisment. Ne propunem să creăm comunități unite în fiecare zonă în care activăm. Considerăm că suntem oamenii 
+  potriviți pentru acest obiectiv deoarece ne adaptăm ușor cererii de pe piață și ne gândim constant la inovații pe care le putem aduce. Vă
+doriți o înghețată de calitate sau doar să petreceți timp alături de cei dragi? Noi suntem aici să vă ajutăm în acest proces!</p>
+    <h3 style="font-family:verdana;text-indent: 0px;">De ce înghețată și bâlci?</h3>
+      <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Înghețata este un produs apreciat de majoritatea dintre noi. În viziunea noastră
+      când cineva mănâncă o înghețată alături de cineva automat se va crea și o amintire plăcută. Ideea de bâlci a venit într-un mod mai <em>neortodox</em>.
+    Ne-am gândit că este dificil să găsești o activitate plăcută pe care să o faci alături de prieteni, iar când coordonatorul departamentului de marketing
+  a venit cu ideea de bâlci, majoritatea am iubit-o ca pe propria noastră idee.</p>
+      <h3 style="font-family:verdana;text-indent: 0px;">„Când aveți prima voastră campanie?”</h3>
+      <p id="demo"></p>
+
+<script>
+var countDownDate = new Date("May 21, 2021 16:45:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").innerHTML = "Ne vedem în "+days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s !";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Chiar acum !";
+  }
+}, 1000);
+</script>
   </div>
 
 </body>
