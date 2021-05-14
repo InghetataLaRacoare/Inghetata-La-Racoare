@@ -242,6 +242,26 @@
     font-size:23px;
     font-family:verdana;
   }
+  .Croissant{
+    background-color: rgb(196,171,134, 0.877);
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size:23px;
+    font-family:verdana;
+  }
+  .Gogosi{
+    background-color: rgb(215,113,134,0.877);
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size:23px;
+    font-family:verdana;
+  }
   
   
 
